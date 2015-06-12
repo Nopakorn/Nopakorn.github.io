@@ -45,13 +45,20 @@ body {
     background-image: url(img/moutain-bg.jpg);
     background-position:center;
     -webkit-background-size: cover;
+    -moz-background-size: cover;
+
+
     -webkit-transition: height 0.5s linear 0s;
+    -moz-transition: height 0.5s linear 0s;
+    transition: height 0.5s linear 0s;
     overflow: hidden;
 
 }
 
 .page-header.b-header.slideClosed{
    -webkit-transition: height 0.5s linear 0s;
+   -moz-transition: height 0.5s linear 0s;
+    =transition: height 0.5s linear 0s;
    height: 0px;
    margin-bottom: 100px;
 }
@@ -143,4 +150,8 @@ h3 {
   opacity:0.5;
 }
 
-.grayscale {-webkit-filter: grayscale(100%)}
+.grayscale {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+
+}
