@@ -48,9 +48,9 @@ body {
     -moz-background-size: cover;
 
 
-    -webkit-transition: height 0.5s linear 0s;
+    /*-webkit-transition: height 0.5s linear 0s;
     -moz-transition: height 0.5s linear 0s;
-    transition: height 0.5s linear 0s;
+    transition: height 0.5s linear 0s;*/
     overflow: hidden;
 
 }
