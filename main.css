@@ -46,11 +46,6 @@ body {
     background-position:center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
-
-
-    /*-webkit-transition: height 0.5s linear 0s;
-    -moz-transition: height 0.5s linear 0s;
-    transition: height 0.5s linear 0s;*/
     overflow: hidden;
 
 }
@@ -155,3 +150,6 @@ h3 {
   filter: grayscale(100%);
 
 }
+
+.ted:after { background-size: 6px ;}
+.ted { background-color: #000000;}
