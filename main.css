@@ -151,5 +151,14 @@ h3 {
 
 }
 
+
+
+
+.starter-template .fullname {
+  font-weight: 100;
+  text-align: center;
+  color:#F22C5F;
+}
+
 .ted:after { background-size: 6px ;}
 .ted { background-color: #000000;}
