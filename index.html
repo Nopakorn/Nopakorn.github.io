@@ -7,25 +7,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" href="bootstrap-3.3.4-dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="Public/PatternBolt/css/patternbolt.css">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/main.css">
+
 
   </head>
 
   <body>
 
-   <!--  <div class="page-header b-header ted pb-pattern o-lines-bold over-img grayscale"></div> -->
     <div class="container">
       <div class="starter-template">
         <img src="img/prof1-resize.png"
              class="img-circle" style="width:105px;height:105px;margin-bottom:40px;">
         <h1>HELLO</h1>
-       <!--  <h2 class="fullname">NOPAKORN GANJANASINIT</h2> -->
         <h2>
-            I'm guild, software designer / developer
+            I'm guild, software designer / developer.
         </h2>
       </div>
-      <div class="row">
+      <div class="row intro-self">
         <div class="col-md-8 col-md-offset-2">
           <div class="tail-template">
             <p>
@@ -39,26 +38,38 @@
           </div>
         </div>
       </div>
-      <div class="row">
+      <!-- animation here -->
+      <div class="row social-ic">
         <div class="col-md-8 col-md-offset-2">
-          <div class="drawing-space">
-          </div>
+          <!-- <div class="drawing-space">
+          </div> -->
+          <ul>
+              <a href="https://github.com/Nopakorn"><img class="social-icons" src="img/github.svg"></a>
+              <a href="https://twitter.com/offcruziveguild"><img class="social-icons" src="img/twitter.svg"></a>
+              <a href="https://facebook.com/himynameisguild"><img class="social-icons fb-icon" src="img/facebook.svg"></a>
+              <a href="https://plus.google.com/u/0/+NGanjanasinitguild/posts"><img class="social-icons gg-icon" src="img/google.svg"></a>
+          </ul>
         </div>
       </div>
-      <div class="row">
+
+      <!-- Abount Me: (graduate/work, my skill) -->
+      <div class="row about-me">
         <div class="col-md-8 col-md-offset-2">
           <div class="starter-template">
             <h1>ABOUT ME</h1>
           </div>
         </div>
       </div>
-      <div class="row">
+      <div class="row about-me">
         <div class="col-md-8 col-md-offset-2">
           <div class="tail-template-sk">
             <h2>Education</h2>
             <p>
               I am graduated from King Mongkut's Institute of Technology Ladkrabang,<br>
               Bachelor's Degree in Engineering / Software Engineering
+            </p>
+            <p>
+
             </p>
             <h2>My skills</h2>
             <p>
@@ -67,24 +78,25 @@
               &emsp;&emsp;&emsp;JavaScript : jQuery / Node.js<br>
               &emsp;&emsp;&emsp;MV* framework : Angular.js<br>
               &emsp;&emsp;&emsp;ASP.NET : MVC5 / Entity Framework 6<br>
-              &emsp;&emsp;&emsp;Preprocessor : Sass / Less<br><br>
+              &emsp;&emsp;&emsp;Preprocessor : Sass / Lass<br><br>
               Mobile Application <br><br>
               &emsp;&emsp;&emsp;Android : Java / Xml<br>
-              &emsp;&emsp;&emsp;iOS : Objective-C <br><br>
+              &emsp;&emsp;&emsp;iOS : Objective-C / Swift<br><br>
               Version control<br><br>
               &emsp;&emsp;&emsp;Git / BitBucket
             </p>
           </div>
         </div>
       </div>
-      <div class="row">
+      <!-- Work experiences: (individual/with companies) -->
+      <div class="row work-ex">
         <div class="col-md-8 col-md-offset-2">
           <div class="starter-template">
             <h1>WORK EXPERIENCES</h1>
           </div>
         </div>
       </div>
-      <div class="row">
+      <div class="row work-ex">
         <div class="col-md-8 col-md-offset-2">
           <div class="tail-template">
             <h2 style="letter-spacing:0px;">
@@ -113,19 +125,25 @@
               Provide convenient way to find important information
               and keep up to date information regarding International College e.g. News, Course Information, Admission Information, Map, Calendar, Media and Contact.
             </p>
-            <h2 style="letter-spacing:0px; margin-top:40px;">Android Google Glass Development</h2>
-            <p>(December 2014 – Jan 2015)</p>
-            <p>
-              Create an application (GDK) for checking material in car by using google glass and voice commands.
-              The application can interact with the server side regarding user active
-            </p>
           </div>
         </div>
       </div>
+      <div class="trigger__info trigger__info--arrow">
+        <svg xmln="http://www.w3.org/2000/svg" viewBox="0 0 25 20">
+          <path fill="none" stroke="#67C3A4" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" d="M2.5,5L12.5 15 22.5 5" />
+        </svg>
+      </div>
     </div>
+
+
     <div class="footer"></div>
 
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="bootstrap-3.3.4-dist/js/bootstrap.min.js"></script>
+    <script src = "scroll_script.js"></script>
+
   </body>
 </html>
